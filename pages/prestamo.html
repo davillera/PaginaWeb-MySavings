@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <title>My Savings | Préstamos</title>
+</head>
+<body>
+    <header>
+        <div class="logocontainer">
+            <a href="../index.html"><img class="logo" src="../images/logo.png" alt=""></a>
+        </div>
+        <nav>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Préstamo</a></li>
+                    <li><a href="#">Empresas</a></li>
+                    <li><a href="#">Personas</a></li>
+                    <li><a href="#">Atención al Usuario</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form action="../php/index.php" method="POST">
+            <p>Valor Préstamo:<input class="noenviar" type="number" name="prestamo"></p>
+            <p>Fecha: <input class="noenviar" type="date" name="fecha"></p>
+            <p>Número de cuotas Préstamo:
+                <select class="noenviar" name="cuotas">
+                    <option value="6">6</option>
+                    <option value="12">12</option>
+                    <option value="18">18</option>
+                    <option value="24">24</option>
+                    <option value="36">36</option>
+                    <option value="48">48</option>
+                    <option value="60">60</option>
+                </select></p>
+            <input class="enviar" type="submit" value="Enviar" name="" id="">
+            </form>
+    </main>
+    
+</body>
+</html>
