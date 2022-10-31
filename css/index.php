@@ -14,3 +14,10 @@ body{
 .columna{
     text-align:center;
 }
+
+.resultado-transferencia{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}

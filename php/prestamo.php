@@ -17,7 +17,7 @@
             <div class="nav">
                 <ul>
                     <li><a href="#">Préstamo</a></li>
-                    <li><a href="#">Empresas</a></li>
+                    <li><a href="#">Transferencias</a></li>
                     <li><a href="#">Personas</a></li>
                     <li><a href="#">Atención al Usuario</a></li>
                 </ul>

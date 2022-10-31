@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>My Savings | Préstamos</title>
+</head>
+
+<body>
+  <header>
+    <div class="logocontainer">
+      <a href="../index.html"><img class="logo" src="../images/logo.png" alt=""></a>
+    </div>
+    <nav>
+      <div class="nav">
+        <ul>
+          <li><a href="#">Préstamo</a></li>
+          <li><a href="./transferencias.html">Transferencias</a></li>
+          <li><a href="#">Personas</a></li>
+          <li><a href="#">Atención al Usuario</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <form action="../php/transferencias.php" method="POST">
+      <p>Tipo de Documento de Identidad</p>
+      <select name="tipodocumento" id="tipodocumento">
+        <option value="Cédula">Cédula</option>
+        <option value="Pasaporte">Pasaporte</option>
+        <option value="Tarjeta De Identidad">Tarjeta de Identidad</option>
+      </select>
+      <p>Introduzca Número de Cédula</p>
+      <input type="number" name="cedula" id="">
+
+      <p>Nombre y Apellido</p>
+      <input type="text" name="nombre">
+
+      <p>Número De Celular</p>
+      <input type="number" name="numero" id="">
+
+      <p>Dirección de residencia</p>
+      <input type="text" name="direccion">
+
+      <p>Departamento de residencia</p>
+      <input type="text" name="departamento" id="">
+
+      <p>Estado Civil</p>
+      <select name="estado" id="">
+        <option value="Soltero">Soltero</option>
+        <option value="Casado">Casado</option>
+        <option value="Divorciado">Divorciado</option>
+        <option value="Viudo">Viudo</option>
+      </select>
+
+      <p>Correo Electronico</p>
+      <input type="mail" name="mail">
+
+      <p>Elija el servicio que busca del Banco</p>
+      <select name="servicio" id="servicio">
+        <option value="Prestamo">Prestamo</option>
+        <option value="Transferencia">Transferencia</option>
+        <option value="Atención Personalizada">Atención Personalizada</option>
+      </select>
+
+      <input type="submit" value="Enviar">
+      <input type="button" value="Limpiar">
+    </form>
+  </main>
+
+</body>
+
+</html>
